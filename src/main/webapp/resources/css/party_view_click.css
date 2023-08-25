@@ -1,0 +1,626 @@
+
+/*메인 슬라이더*/
+.main_wrapper .main_slider {
+	position: relative;
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+	margin-top: 50px;
+	border-radius: 12px;
+    overflow: hidden;
+    background: linear-gradient(to right, rgb(255 236 118), rgb(255 242 156), rgb(249 243 188));
+}
+
+#slider_main {
+	width: 100%;
+	height: 100%;
+}
+
+#slider_main .slide_box{
+    position: relative;
+    margin: 0 auto;
+}
+
+#slider_main .slide_box img{
+	width: 100%;
+	height: 100%;
+}
+
+
+/*******************************************파티게시물*******************************************/
+
+/*프로필*/
+#article-profile {
+	width: 700px;
+    margin: 0 auto;
+}
+
+#article-profile .article-profile-box {
+	display: block;
+    margin-top: 25px;
+    padding-bottom: 23px;
+    position: relative;
+}
+
+#article-profile #article-profile-image-box {
+    text-decoration: none;
+}
+
+#article-profile #article-profile-image-box img {
+	width: 40px;
+    height: 40px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+#article-profile #article-profile-left{
+	display: inline-block;
+    margin-left: 8px;
+	text-align: left;
+}
+
+#article-profile .article-profile-link {
+	text-decoration: none;
+    display: block;
+    padding-bottom: 23px;
+    position: relative;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+#article-profile #article-profile-left #article-nickname {
+	font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: -0.6px;
+    color: #212529;
+}
+
+#article-profile #article-profile-left #article-region-name {
+	font-size: 13px;
+    line-height: 1.46;
+    letter-spacing: -0.6px;
+    color: #212529;
+}
+
+.space-between {
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.display-align-items-center {
+	display: flex;
+	align-items: center;
+}
+#article-profile .article-profile-right {
+	position: absolute;
+    right: 0;
+    padding-right: 36px;
+}
+
+
+#article-profile .article-profile-right .temperature-wrap {
+	font-size: 14px;
+	color: #868e96;
+	letter-spacing: -0.6px;
+}
+
+  
+#article-profile .article-profile-right .meters {
+	clear: both;
+	display: block;
+	width: 100px;
+	background-color: #e9ecef;
+	height: 4px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	position: relative;
+	vertical-align: middle;
+	margin-top: 8px;
+}
+
+#article-profile .article-profile-right .meters .bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	background-color: #495057;
+	height: 4px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+}
+
+#article-profile .article-profile-right .temperature-face {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+
+#article-profile .article-profile-right .temperature-face img{
+	width: 24px;
+    height: 24px;
+}
+
+#article-profile .text-color {
+	font-size: 16px;
+	font-weight: bold;
+}
+#article-profile .text-color-01 {
+	color: #072038;
+}
+  
+#article-profile .text-color-02 {
+	color: #0d3a65;
+}
+
+#article-profile .text-color-03 {
+	color: #1561a9;
+}
+
+#article-profile .text-color-04 {
+	color: #319e45;
+}
+
+#article-profile .text-color-05 {
+	color: #df9100;
+}
+
+#article-profile .text-color-06 {
+	color: #de5d06;
+}
+
+#article-profile .article-profile-right .meters .bar-color-01 {
+	background-color: #072038;
+}
+  
+#article-profile .article-profile-right .meters .bar-color-02 {
+	background-color: #0d3a65;
+}
+
+#article-profile .article-profile-right .meters .bar-color-03 {
+	background-color: #1561a9;
+}
+
+#article-profile .article-profile-right .meters .bar-color-04 {
+	background-color: #319e45;
+}
+
+#article-profile .article-profile-right .meters .bar-color-05 {
+	background-color: #df9100;
+}
+
+#article-profile .article-profile-right .meters .bar-color-06 {
+	background-color: #de5d06;
+}
+
+
+/*게시글*/
+#article-description {
+    padding-bottom: 28px;
+    width: 700px;
+    margin: 0 auto;
+    /*border-bottom: 1px solid #e9ecef;*/
+	text-align: left;
+}
+
+#article-description #article-category {
+	margin-top: 4px;
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 0px;
+    letter-spacing: -0.6px;
+    color: #868e96;
+}
+
+#article-description #article-location {
+	margin-top: 4px;
+    font-size: 15px;
+    line-height: 1.46;
+    letter-spacing: -0.6px;
+    color: #535455;
+}
+
+#article-description #article-title {
+    margin-top: 0px;
+	margin-bottom: 0px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: -0.6px;
+}
+
+
+#article-description #article-price-box {
+	position: relative;
+	width: 100%;
+    height: 40px;
+    margin: 0 auto;
+	margin-top: 0px;
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: -0.6px;
+}
+
+
+#article-description #article-price-box #article-price {
+	display: inline-block;
+}
+
+#article-description #article-price-box #article-deposit {
+	display: inline-block;
+}
+
+#article-description #article-price-box #article-bar-box {
+	position: relative;
+	display: inline-block;
+	top: -2px;
+    margin: 0px 10px;
+    width: 200px;
+    height: 6px;
+}
+
+#article-description #article-price-box #article-price-bar {
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    background-color: #ff4c35;
+}
+
+#article-description #article-price-box #article-deposit-bar {
+	position: absolute;
+    width: 70%;
+    height: 100%;
+    left: 0px;
+    border-radius: 3px;
+    background-color: #0079ff;
+}
+
+#article-description #article-price-box .article-people-box {
+	margin-top: 7px;
+}
+
+#article-description #article-price-box #article-people {
+	display: inline-block;
+	top: 25px;
+	left: 0px;
+    font-weight: 500;
+}
+
+#article-description #article-price-box #article-people-price {
+	display: inline-block;
+	margin-left: 10px;
+    top: 25px;
+	left: 80px;
+    background-color: #a4ceff;
+}
+
+
+#article-description #article-detail p {
+    font-size: 17px;
+    line-height: 1.4;
+    letter-spacing: -0.6px;
+    margin: 12px 0;
+    word-break: break-all;
+}
+
+#article-description #article-counts {
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: -0.6px;
+    color: #8a8a8a;
+	margin-bottom: 0px;
+}
+
+/*메인 포트폴리오*/
+.article-party-share {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-top: 22px;
+    border-top: 1px solid #e9ecef;
+}
+.article-party-share .article-party-share-box {
+	position: relative;
+	text-align: left;
+}
+.article-party-share .article-party-share-box .article-party-share-title {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: -0.6px;
+    text-decoration: none;
+    color: #111;
+}
+
+.article-party-share .article-party-share-box #article-party-share-re {
+	position: absolute;
+    top: 0px;
+    right: 0;
+    text-align: right;
+	font-size: 15px;
+    font-weight: bold;
+    line-height: 1.4;
+    letter-spacing: -0.6px;
+    text-decoration: none;
+    color: #c06206;
+}
+
+
+.article-party-share .main_portfolio {
+	grid-template-columns: repeat(2,1fr);
+	margin-top: 30px;
+}
+
+/*********************************************채팅***********************************************/
+
+#chating {
+    display: flex;
+    position: relative;
+    width: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+    color: #000;
+    font-size: 13px;
+    text-align: left;
+    border: 1px solid #e8ebee;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.03);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.03);
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#chating .chating-head {
+    display: block;
+    position: relative;
+    margin-bottom: -1px;
+    border-bottom: 1px solid #eff2f4;
+    line-height: 48px;
+    height: 48px;
+    width: 100%;
+    background: 0 0;
+}
+
+#chating .chating-head .chating-head-title {
+	float: left;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+
+/*바디*/
+#chating .chating-body {
+    width: 100%;
+    height: 490px;
+}
+
+#chating .chating-body-box {
+    display: flex;
+    position: relative;
+    width: auto;
+    height: 100%;
+    padding: 0px 20px;
+    justify-content: flex-start;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+#chating .chating-body-box .chating-body-msg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    width: auto;
+    margin-top: 16px;
+    font-size: 1.3rem;
+    flex-direction: column;
+    
+}
+#chating .chating-body-box .chating-body-msg .chating-body-msg-w {
+    max-width: 500px;
+}
+
+#chating .chating-body-box .chating-body-msg .chating-body-msg-profile {
+    position: relative;
+    height: 30px;
+    vertical-align: top;
+    cursor: default;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#chating .chating-body-box .chating-body-msg .chating-body-msg-profile .chating-body-msg-profile-img {
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    border: 1px solid #eff2f4;
+}
+
+
+#chating .chating-body-box .chating-body-msg .chating-body-msg-profile .chating-body-msg-profile-name {
+    font-size: 12px;
+    margin-top: 7px;
+    margin-left: 6px;
+}
+
+#chating .chating-body-box .chating-body-msg .chating-body-msg-box {
+    font-size: 13px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#chating .chating-body-box .chating-body-msg .chating-body-msg-box .bubble-msg{ 
+    border-radius: 21px;
+    background-color: #f2f4f6;
+    padding: 10px 14px;
+    line-height: 18px;
+}
+
+#chating .chating-body-box .chating-body-msg .chating-body-msg-box-date {
+    font-size: 11px;
+    color: #d6d6d6;
+    width: 60px;
+    margin-left: 5px;
+}
+#chating .chating-body-box .chating-body-msg .chating-body-msg-box-pop {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#chating .chating-body-box .chating-body-msg .chating-body-msg-box-pop .chating-body-msg-box-pop-img {
+    width: 12px;
+    height: 20px;
+}
+
+#chating .chating-body-box .chating-body-msg.continue-msg {
+    margin-top: 5px;
+}
+
+/*마이메시지*/
+#chating .chating-body-box .chating-body-msg.my-msg {
+    flex-direction: row-reverse;
+}
+
+#chating .chating-body-box .chating-body-msg.my-msg .chating-body-msg-profile{
+    display: none;
+}
+
+#chating .chating-body-box .chating-body-msg.my-msg .chating-body-msg-box {
+    flex-direction: row-reverse;
+}
+
+#chating .chating-body-box .chating-body-msg.my-msg .chating-body-msg-box .bubble-msg{ 
+    text-align: left;
+}
+
+/*인풋*/
+#chating .chating-input {
+    display: flex;
+    min-height: 60px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#chating .chating-input .chating-input-area {
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin: 10px 7px 10px 10px;
+    padding-left: 8px;
+    border-radius: 24px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-color: #f2f4f6;
+}
+
+#chating .chating-input .chating-post-stickerbtn {
+    width: 50px;
+    height: 100%;
+    cursor: pointer;
+}
+
+#chating .chating-input .chating-input-area .chating-input-area-write {
+    width: 100%;
+    height: 36px;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 13px;
+    line-height: 16px;
+    color: #3b3b3b;
+    overflow: auto;
+    padding: 10px 10px;
+    
+}
+
+
+#chating .chating-input .chating-post-area {
+    position: relative;
+    width: 60px;
+    height: 100%;
+}
+
+#chating .chating-input .chating-post-area .chating-post-sendbtn {
+    position: absolute;
+    top: 10px;
+    left: 7px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+.chating-allow {
+    position: relative;
+    width: 700px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chating-allow-btn {
+    width: 260px;
+    height: 50px;
+    background: linear-gradient(to right, rgb(180, 91, 36), rgb(202, 142, 72),rgb(221, 174, 113));
+    box-shadow:  0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/*********************************************채팅 끝***********************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

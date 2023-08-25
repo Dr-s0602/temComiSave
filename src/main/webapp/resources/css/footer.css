@@ -1,0 +1,188 @@
+
+/******************************************************footer**************************************************/
+
+
+.footer {
+    padding-top: 60px;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+.footer .side_margin_zero {
+    background-color: #000;
+}
+
+.footer .footer_section_box {
+    padding: 0px 20px;
+}
+
+.footer_section {
+    max-width: 100vw;
+    width: 100%;
+    height: 460px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    
+    overflow: hidden;
+}
+
+.footer_logo {
+    width: 75px;
+    height: 24px;
+    margin-bottom: 0px;
+}
+
+
+.footer_section .footer_div {
+    max-width: 980px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.footer_section .footer_div .footer_right {
+    display: flex;
+    flex-direction: row;
+}
+.footer_section .footer_div .footer_right .footer_right_sub {
+    width: 170px;
+    margin-bottom: 0px;
+}
+.footer_section .footer_div .footer_right .footer_right_subsub {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_section .footer_div .footer_right .footer_right_sub_label {
+    display: inherit;
+    font-family: "Noto Sans KR Bold";
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 21px;
+    text-align: left;
+    color: #c06206;
+    margin-bottom: 14px;
+}
+
+.footer_section .footer_div .footer_right .footer_right_sub_text {
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 11px;
+}
+
+.footer_section .footer_div .footer_right .footer_right_sub_text a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer_section .footer_bottom_1 {
+    max-width: 980px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left;
+    color: #b8b8b8;
+    word-break: keep-all;
+    margin-top: 112px;
+}
+.footer_section .footer_bottom_2 {
+    border-top: 1px solid #e1e1e1;
+    max-width: 980px;
+    display: flex;
+    width: 100%;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 15px;
+}
+
+.footer_section .footer_text_1{
+    cursor: pointer;
+    margin-right: 35px;
+}
+.footer_section .footer_sub {
+    word-break: keep-all;
+    max-width: 767px;
+    width: 100%;
+}
+
+.footer_copyright_text {
+	text-align: left;
+    margin-right: 35px;
+    color: #fff;
+}
+
+.footer_copyright_text {
+	
+}
+
+.footer_copyright_text p {
+	margin-bottom: 0;
+}
+
+.footer_copyright_text a {
+	color: #c06206;
+}
+
+.footer_copyright_text a:hover {
+	color: #c06206;
+}
+
+.footer_copyright_text i {
+	color: #c06206;
+}
+.team_text {
+    font-weight: 800;
+    text-decoration: none;
+    color: #c06206;
+}
+
+.launcher_character {
+    position: fixed;
+    display: block;
+    flex-wrap: nowrap;
+    width: auto;
+    overflow: visible;
+    background: transparent;
+    bottom: 45px;
+    right: 45px;
+    z-index: 99999;
+    display: none;
+}
+
+#launcher_btn {
+	cursor: pointer;
+}
+
+.text_hidden {
+    position: absolute;
+    text-indent: -99999px;
+}
+
+.hidden_message{
+    display: none;
+}
+
+/*모바일 스타일 지정*/
+@media screen and (max-width: 767px) {
+    .footer_section .footer_bottom_1 {
+        margin-top: 80px;
+    }
+
+    .footer_section .footer_text_1{
+        margin-right: 15px;
+    }
+}

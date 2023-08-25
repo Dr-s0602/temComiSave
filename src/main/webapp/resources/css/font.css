@@ -1,0 +1,39 @@
+sup {line-height:1em;}
+sub {line-height:1em;}
+
+
+/*
+@font-face {
+	font-family: NanumGothicB;
+	src: local(NanumGothic-Bold),
+		url(./font/NanumGothic-Bold.eot) format('embedded-opentype'),
+		url(./font/NanumGothic-Bold.woff) format('woff');
+}
+
+@font-face {
+	font-family: NanumGothicEB;
+	src: local(NanumGothic-ExtraBold),
+		url(./font/NanumGothic-ExtraBold.eot) format('embedded-opentype'),
+		url(./font/NanumGothic-ExtraBold.woff) format('woff');
+}
+
+@font-face {
+	font-family: NanumGothicR;
+	src: local(NanumGothic-Regular),
+		url(./font/NanumGothic-Regular.eot) format('embedded-opentype'),
+		url(./font/NanumGothic-Regular.woff) format('woff');
+}
+*/
+
+
+@font-face {
+	font-family: Noto Sans KR;
+	src: local("Noto Sans KR")
+	  , url(./font/NotoSansKR-Regular.otf) format('opentype');
+}
+
+@font-face {
+	font-family: "Noto Sans KR Bold";
+	src: local("Noto Sans Bold")
+	  , url(./font/NotoSansKR-Bold.otf) format('opentype');
+}
