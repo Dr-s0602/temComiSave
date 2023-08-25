@@ -1,0 +1,701 @@
+
+/*메인 슬라이더*/
+.main_wrapper .main_slider {
+	position: relative;
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+	margin-top: 30px;
+	border-radius: 12px;
+    overflow: hidden;
+    background: linear-gradient(to right, rgb(255 236 118), rgb(255 242 156), rgb(249 243 188));
+}
+.container {
+    position: relative;
+}
+.party_closed{
+    color: #000;
+    margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #eee;
+    font-weight: bold;
+}
+
+#slider_main {
+	width: 100%;
+	height: 100%;
+}
+
+#slider_main .slide_box{
+    position: relative;
+    margin: 0 auto;
+}
+
+#slider_main .slide_box img{
+	width: 100%;
+	height: 100%;
+}
+
+
+/*******************************************파티게시물*******************************************/
+
+/*프로필*/
+#article-profile {
+	width: 700px;
+    margin: 0 auto;
+}
+
+#article-profile .article-profile-box {
+	display: block;
+    margin-top: 25px;
+    padding-bottom: 23px;
+    position: relative;
+}
+
+#article-profile #article-profile-image-box {
+    text-decoration: none;
+}
+
+#article-profile #article-profile-image-box img {
+	width: 40px;
+    height: 40px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+#article-profile #article-profile-left{
+	display: inline-block;
+    margin-left: 8px;
+	text-align: left;
+}
+
+#article-profile .article-profile-link {
+	text-decoration: none;
+    display: block;
+    padding-bottom: 23px;
+    position: relative;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+#article-profile #article-profile-left #article-nickname {
+	font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: -0.6px;
+    color: #212529;
+}
+
+#article-profile #article-profile-left #article-region-name {
+	font-size: 13px;
+    line-height: 1.46;
+    letter-spacing: -0.6px;
+    color: #212529;
+}
+
+.space-between {
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.display-align-items-center {
+	display: flex;
+	align-items: center;
+}
+#article-profile .article-profile-right {
+	position: absolute;
+    right: 0;
+    padding-right: 36px;
+}
+
+
+#article-profile .article-profile-right .temperature-wrap {
+	font-size: 14px;
+	color: #868e96;
+	letter-spacing: -0.6px;
+}
+
+  
+#article-profile .article-profile-right .meters {
+	clear: both;
+	display: block;
+	width: 100px;
+	background-color: #e9ecef;
+	height: 4px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	position: relative;
+	vertical-align: middle;
+	margin-top: 8px;
+}
+
+#article-profile .article-profile-right .meters .bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	background-color: #495057;
+	height: 4px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+}
+
+#article-profile .article-profile-right .temperature-face {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+
+#article-profile .article-profile-right .temperature-face img{
+	width: 24px;
+    height: 24px;
+}
+
+#article-profile .text-color {
+	font-size: 16px;
+	font-weight: bold;
+}
+#article-profile .text-color-01 {
+	color: #072038;
+}
+  
+#article-profile .text-color-02 {
+	color: #0d3a65;
+}
+
+#article-profile .text-color-03 {
+	color: #1561a9;
+}
+
+#article-profile .text-color-04 {
+	color: #319e45;
+}
+
+#article-profile .text-color-05 {
+	color: #df9100;
+}
+
+#article-profile .text-color-06 {
+	color: #de5d06;
+}
+
+#article-profile .article-profile-right .meters .bar-color-01 {
+	background-color: #072038;
+}
+  
+#article-profile .article-profile-right .meters .bar-color-02 {
+	background-color: #0d3a65;
+}
+
+#article-profile .article-profile-right .meters .bar-color-03 {
+	background-color: #1561a9;
+}
+
+#article-profile .article-profile-right .meters .bar-color-04 {
+	background-color: #319e45;
+}
+
+#article-profile .article-profile-right .meters .bar-color-05 {
+	background-color: #df9100;
+}
+
+#article-profile .article-profile-right .meters .bar-color-06 {
+	background-color: #de5d06;
+}
+
+
+/*게시글*/
+#article-description {
+    padding-bottom: 28px;
+    width: 700px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e9ecef;
+	text-align: left;
+}
+
+#article-description #article-category {
+	margin-top: 4px;
+    font-size: 13px;
+    line-height: 1.46;
+    letter-spacing: -0.6px;
+    color: #868e96;
+}
+
+#article-description #article-title {
+    margin-top: 0px;
+	margin-bottom: 0px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: -0.6px;
+}
+
+
+#article-description #article-price-box {
+	position: relative;
+	width: 100%;
+    height: 40px;
+    margin: 0 auto;
+	margin-top: 0px;
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: -0.6px;
+}
+
+
+#article-description #article-price-box #article-price {
+	display: inline-block;
+}
+
+#article-description #article-price-box #article-deposit {
+	display: inline-block;
+}
+
+#article-description #article-price-box #article-bar-box {
+	position: relative;
+	display: inline-block;
+	top: -2px;
+    margin: 0px 10px;
+    width: 200px;
+    height: 6px;
+}
+
+#article-description #article-price-box #article-price-bar {
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    background-color: #ff4c35;
+}
+
+#article-description #article-price-box #article-deposit-bar {
+	position: absolute;
+    width: 70%;
+    height: 100%;
+    left: 0px;
+    border-radius: 3px;
+    background-color: #0079ff;
+}
+
+#article-description #article-price-box .article-people-box {
+	margin-top: 7px;
+}
+
+#article-description #article-price-box #article-people {
+	display: inline-block;
+	top: 25px;
+	left: 0px;
+    font-weight: 500;
+}
+
+#article-description #article-price-box #article-people-price {
+	display: inline-block;
+	margin-left: 10px;
+    top: 25px;
+	left: 80px;
+    background-color: #a4ceff;
+}
+
+
+#article-description #article-detail p {
+    font-size: 17px;
+    line-height: 1.4;
+    letter-spacing: -0.6px;
+    margin: 12px 0;
+    word-break: break-all;
+}
+
+#article-description #article-counts {
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: -0.6px;
+    color: #8a8a8a;
+	margin-bottom: 0px;
+}
+
+/*메인 포트폴리오*/
+.article-party-share {
+	width: 700px;
+    margin: 0 auto;
+	margin-top: 20px;
+}
+.article-party-share .article-party-share-box {
+	position: relative;
+	text-align: left;
+}
+.article-party-share .article-party-share-box .article-party-share-title {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: -0.6px;
+    text-decoration: none;
+    color: #111;
+}
+
+.article-party-share .article-party-share-box #article-party-share-re {
+	position: absolute;
+    top: 0px;
+    right: 0;
+    text-align: right;
+	font-size: 15px;
+    line-height: 1.4;
+    letter-spacing: -0.6px;
+    text-decoration: none;
+    color: #ff8a3d;
+}
+
+
+.article-party-share .main_portfolio {
+	grid-template-columns: repeat(2,1fr);
+	margin-top: 30px;
+}
+
+
+/*********************************************채팅***********************************************/
+#chating {
+	position: relative;
+	width: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+    color: #000;
+	font-size: 13px;
+    text-align: left;
+
+	max-height: 495px;
+}
+
+/*********************************************리뷰***********************************************/
+
+/*글쓰기*/
+#review {
+	position: relative;
+	width: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+    color: #000;
+	font-size: 13px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.u_cbox {
+    position: relative;
+    background-color: #fff;
+    color: #000;
+    text-align: left;
+    -webkit-text-size-adjust: none
+}
+
+.u_cbox .u_vc {
+    overflow: hidden;
+    position: absolute;
+    clip: rect(0,0,0,0);
+    width: 1px;
+    height: 1px;
+    margin: -1px
+}
+
+.u_cbox .u_vh {
+    visibility: hidden
+}
+
+.u_cbox,.u_cbox p,.u_cbox h1,.u_cbox h2,.u_cbox h3,.u_cbox h4,.u_cbox h5,.u_cbox h6,.u_cbox ul,.u_cbox ol,.u_cbox li,.u_cbox dl,.u_cbox dt,.u_cbox dd,.u_cbox table,.u_cbox th,.u_cbox td,.u_cbox form,.u_cbox fieldset,.u_cbox legend,.u_cbox input,.u_cbox textarea,.u_cbox button,.u_cbox select {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica,sans-serif
+}
+
+.u_cbox,.u_cbox input,.u_cbox textarea,.u_cbox select,.u_cbox button,.u_cbox table {
+    font-size: 14px;
+    line-height: 1.25em
+}
+
+.s .u_cbox,.s .u_cbox input,.s .u_cbox textarea,.s .u_cbox select,.s .u_cbox button,.s .u_cbox table {
+    font-family: Helvetica,sans-serif
+}
+
+.u_cbox img,.u_cbox fieldset {
+    border: 0
+}
+
+.u_cbox fieldset {
+    min-width: 0
+}
+
+.u_cbox ul,.u_cbox ol {
+    list-style: none
+}
+
+.u_cbox em,.u_cbox address {
+    font-style: normal
+}
+
+.u_cbox a {
+    color: #000;
+    text-decoration: none
+}
+
+.u_cbox table {
+    border-collapse: collapse
+}
+
+.u_cbox hr {
+    display: none !important
+}
+
+.u_cbox b,.u_cbox strong {
+    font-weight: 400
+}
+
+.u_cbox button {
+    overflow: visible;
+    border: 0;
+    border-radius: 0;
+    background-color: transparent;
+    -webkit-user-select: none;
+    cursor: pointer;
+    /* iOS 15에서 button text color가 blue로 바뀌는 문제가 있어 버튼에 컬러값 명시적으로 지정 */
+    /* 참고:https://velog.io/@alvin/iOS-15에서-button-text-color가-blue로-바뀌는-문제 */
+    color: #000
+}
+
+/* image */
+.u_cbox .u_cbox_btn_refresh .u_cbox_ico_refresh,.u_cbox .u_cbox_manage_wrap .u_cbox_ico_option,.u_cbox .u_cbox_manage_wrap .u_cbox_bg_wrap .u_cbox_bg_left,.u_cbox .u_cbox_manage_wrap .u_cbox_bg_wrap .u_cbox_bg_right,.u_cbox .u_cbox_layer_comment_manage .u_cbox_ico_check,.u_cbox .u_cbox_manage .u_cbox_ico_manage,.u_cbox .u_cbox_help_info .u_cbox_ico_help,.u_cbox .u_cbox_layer_help .u_cbox_btn_info_close,.u_cbox .u_cbox_layer_help .u_cbox_ico_help,.u_cbox .u_cbox_inform_status .u_cbox_ico_status,.u_cbox .u_cbox_ico_delete_thumb,.u_cbox .u_cbox_upload_thumb_add,.u_cbox .u_cbox_addition .u_cbox_ico_secret,.u_cbox .u_cbox_thumb .u_cbox_thumb_mask,.u_cbox .u_cbox_notice .u_cbox_ico_notice,.u_cbox .u_cbox_notice .u_cbox_btn_notice_close,.u_cbox .u_cbox_refresh_wrap .u_cbox_bg_left,.u_cbox .u_cbox_refresh_wrap .u_cbox_bg_right,.u_cbox .u_cbox_refresh_wrap .u_cbox_ico_refresh_man,.u_cbox .u_cbox_sort .u_cbox_sort_option_on .u_cbox_ico_select,.u_cbox .u_cbox_comment .u_cbox_ico_best,.u_cbox .u_cbox_recomm_set .u_cbox_ico_recomm,.u_cbox .u_cbox_recomm_set .u_cbox_ico_unrecomm,.u_cbox .u_cbox_ico_reply,.u_cbox .u_cbox_ico_more,.u_cbox .u_cbox_btn_social .u_cbox_box_social_naver .u_cbox_ico_social,.u_cbox .u_cbox_btn_social .u_cbox_box_social_twitter .u_cbox_ico_social,.u_cbox .u_cbox_btn_social .u_cbox_box_social_facebook .u_cbox_ico_social,.u_cbox .u_cbox_ico_fold,.u_cbox .u_cbox_btn_top .u_cbox_ico_top,.u_cbox .u_cbox_sns_icons,.u_cbox .u_cbox_view_comment .u_cbox_ico_view_comment,.u_cbox .u_cbox_ico_stat_secret,.u_cbox .u_cbox_image_section .u_cbox_image_icon_gif,.u_cbox .u_cbox_image_section .u_cbox_image_icon_crop,.u_cbox .u_cbox_login_area .u_cbox_ico_login_link,.u_cbox .u_cbox_login_area .u_cbox_btn_login .u_cbox_ico_login,.u_cbox .u_cbox_sort::before,.u_cbox .u_cbox_sort::after,.u_cbox .u_cbox_ico_close_hide,.u_cbox .u_cbox_content_layer_ico,.u_cbox .u_cbox_ico_translate_set,.u_cbox .u_cbox_ico_translate_arr,.u_cbox .u_cbox_btn_translate_lang_on .u_cbox_ico_translate_lang,.u_cbox .u_cbox_ico_appraisal,.u_cbox .u_cbox_ico_captcha_refresh,.u_cbox .u_cbox_layer_captcha_cont::before,.u_cbox .u_cbox_ico_arrow,.u_cbox .u_cbox_layer_comment_type .u_cbox_ico_check,.u_cbox .u_cbox_layer_fold .u_cbox_ico_close_fold,.u_cbox .u_cbox_ico_mention,.u_cbox .u_cbox_ico_help,.u_cbox .u_cbox_ico_close,.u_cbox .u_cbox_ico_public,.u_cbox .u_cbox_ico_first,.u_cbox .u_cbox_ico_close,.u_cbox_ico_close_repeat,.u_cbox_ico_warning,.u_cbox_ico_captcha_sound,.u_cbox_ico_captcha_image,.u_cbox_ico_captcha_voice,.u_cbox_ico_close_alert,.u_cbox_layer_common .u_cbox_layer_waring_icon,.u_cbox_layer_common .u_cbox_layer_close::before,.u_cbox .u_cbox_btn_report .u_cbox_content_view::after,.u_cbox .u_cbox_btn_report .u_cbox_content_close::after {
+    background-image: url(https://ssl.pstatic.net/static.news/image/news/m/2022/07/27/sp_cbox_w.png);
+    background-repeat: no-repeat;
+    background-size: 400px 800px;
+    font-size: 0;
+    line-height: 0
+}
+
+.u_cbox .u_cbox_login_section .u_cbox_login_ico {
+    background-image: url(https://ssl.pstatic.net/static.news/image/news/2015/12/22/sp_cbox_login_w.png);
+    background-repeat: no-repeat;
+    background-size: 200px 200px
+}
+
+.u_cbox .u_cbox_sticker_tab_ico_recent::after,.u_cbox .u_cbox_sticker_tab_ico_grafolio::after,.u_cbox .u_cbox_sticker_tab_ico_new {
+    background-image: url(https://ssl.pstatic.net/static.news/image/news/2019/09/18/sp_cbox_sticker_w.png);
+    background-repeat: no-repeat;
+    background-size: 100px 100px
+}
+.u_cbox .u_cbox_head {
+    min-height: 41px;
+    padding-top: 3px;
+    line-height: 41px
+}
+
+.u_cbox .u_cbox_head::after {
+    display: block;
+    clear: both;
+    content: ''
+}
+
+.u_cbox .u_cbox_head .u_cbox_head_tools {
+    margin: 0 -6px 0 0
+}
+
+.u_cbox .u_cbox_head .u_cbox_help_info {
+    line-height: 0
+}
+
+.u_cbox .u_cbox_head .u_cbox_manage,.u_cbox .u_cbox_head .u_cbox_help_info {
+    margin-top: 6px
+}
+
+.u_cbox .u_cbox_head .u_cbox_layer_help {
+    margin-top: 41px
+}
+
+.u_cbox .u_cbox_title {
+    float: left;
+    font-size: 17px;
+    font-weight: 700
+}
+
+
+
+
+.u_cbox_head {
+    padding-left: 0;
+    padding-top: 7px;
+}
+
+.u_cbox_btn_title {
+    pointer-events: none;
+    cursor: default;
+}
+
+.u_cbox_btn_title {
+    pointer-events: none;
+    cursor: default;
+}
+
+.u_cbox .u_cbox_layer_comment_type .u_cbox_btn_comment_option {
+    display: block;
+    padding: 0 13px 0 17px;
+    line-height: 33px;
+    color: #999;
+}
+
+.u_cbox .u_cbox_layer_comment_type .u_cbox_option_label {
+    float: left;
+}
+
+.u_cbox .u_cbox_layer_comment_type .u_cbox_ico_check {
+    display: none;
+    float: left;
+    width: 9px;
+    height: 6px;
+    margin: 13px 0 0 7px;
+    background-position: -170px -130px;
+}
+
+
+.u_cbox .u_cbox_layer_comment_type .u_cbox_option_wrap {
+    margin-top: 8px;
+}
+
+.u_cbox .u_cbox_btn_refresh {
+    float: left;
+    overflow: hidden;
+    width: 23px;
+    height: 23px;
+    margin: 9px 0 0 7px;
+    border: 0;
+    font-size: 0;
+    text-indent: -9999px;
+    color: transparent;
+    vertical-align: top;
+}
+
+.u_cbox_head .u_cbox_head_tools {
+    margin-top: 2px;
+}
+
+.u_cbox .u_cbox_head .u_cbox_head_tools {
+    margin: 0 -6px 0 0;
+}
+
+.u_cbox .u_cbox_btn_usercomment, .u_cbox .u_cbox_manage_block_btn {
+    display: inline-block;
+    min-height: 21px;
+    padding: 3px 11px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    background-color: #fff;
+    line-height: 1.5;
+    color: #303038;
+}
+
+
+.u_cbox_content_wrap > .u_cbox_list {
+    padding-bottom: 20px;
+}
+
+.u_cbox_btn_more_pre, .u_cbox_reply_area .u_cbox_comment_box, .u_cbox_comment_box {
+    border-bottom-color: #f0f0f0;
+}
+
+.u_cbox_chart_wrap, .ad_box, .u_cbox_reply_area, .u_cbox_area {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.u_cbox_info {
+    margin-top: 4px;
+    margin-bottom: 11px;
+}
+
+.u_cbox_info_main {
+    position: relative;
+    margin-top: -3px;
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica,"Apple SD Gothic Neo",sans-serif;
+    float: left;
+}
+
+.u_cbox_name {
+    font-size: 13px;
+}
+
+.u_cbox .u_cbox_name .u_cbox_name_area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.u_cbox .u_cbox_name .u_cbox_nick_area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+.u_cbox .u_cbox_name .u_cbox_nick {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.u_cbox_comment .u_cbox_text_wrap,  .u_cbox_comment .u_cbox_text_wrap {
+    font-size: 13px;
+    line-height: 19px;
+}

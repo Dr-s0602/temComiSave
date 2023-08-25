@@ -1,0 +1,299 @@
+/*********************************************리뷰***********************************************/
+.party_closed{
+    color: #000;
+    margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #eee;
+}
+
+.review-head {
+	padding-left: 0;
+    padding-top: 15px;
+    height: 35px;
+}
+
+.review-head .review-head-title {
+	float: left;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.review-head .review-head-refresh {
+	float: left;
+	overflow: hidden;
+	width: 23px;
+	height: 23px;	
+}
+
+.review-write {
+	position: relative;
+}
+
+.review-write.review-rewriting {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.review-write fieldset {
+	min-width: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.review-write .u_vc {
+	overflow: hidden;
+	position: absolute;
+	clip: rect(0,0,0,0);
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+}
+
+
+.review-write .review-write-inner {
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+
+.review-write-profilearea {
+    position: relative;
+    z-index: 1;
+    height: 26px;
+    padding-top: 12px;
+    padding-left: 14px;
+    margin-bottom: -8px;
+}
+
+.review-write-profile {
+    position: relative;
+    margin-right: 5px;
+}
+
+.review-write-profile .img-profile {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+	border: 1px solid #f4f7ff;
+}
+
+.review-write-profile .write-name {
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    max-width: 100%;
+    font-size: 14px;
+	vertical-align: top;
+    margin-top: 4px;
+	margin-left: 4px;
+}
+
+.review-write-area {
+    max-width: 100%;
+}
+.review-write-area .review-write-area-inbox {
+	position: relative;
+    padding: 13px 14px 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.review-write-textarea {
+	display: block;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 145px;
+    border: 1px solid #dde1eb;
+	border-radius: 5px;
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.5px;
+    color: #333;
+    -webkit-appearance: none;
+    resize: none;
+}
+
+.review-write-area-inbox .u_cbox_guide {
+	display: none;
+	position: absolute;
+    top: 22px;
+    bottom: 13px;
+    font-size: 13px;
+	line-height: 16px;
+    left: 24px;
+    right: 14px;
+    color: #a6a6a6;
+    white-space: normal;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+}
+
+.review-write-area-inbox .guide_emphasis {
+    color: #4878f4;
+}
+
+.review-write-count-box {
+	display: flex;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.review-write-count{
+	margin-left: 15px;
+	color: #999;
+}
+
+.review-write-count .review-write-count-num{
+	margin-right: 4px;
+    font-weight: 500;
+    color: #222;
+}
+
+.review-write-count-box .review-write-count .review-write-count-total{
+    color: #999;
+}
+
+.review-write-count-box .review-write-upload {
+	display: block;
+	height: 28px;
+	width: 44px;
+	margin-right: 9px;
+	background: #b0b3be;
+	border-radius: 3px;
+	border: none;
+	font-size: 13px;
+	color: #fff;
+	letter-spacing: -0.5px;
+	cursor: pointer;
+}
+.review-write-count-box .review-write-upload span {
+	font-size: 13px;
+    color: #fff;
+    letter-spacing: -0.5px;
+}
+
+
+/*정렬*/
+.review-sort {
+    width: 700px;
+    padding: 20px 0px 10px;
+    border-bottom: 1px solid #dde1eb;
+    
+}
+
+.review-sort .review-sort-btn {
+    margin-right: 10px;
+    font-size: 14px;
+    color: #3f3f3f;
+    cursor: pointer;
+}
+
+.review-sort .review-sort-btn.active {
+    font-weight: bold;
+    color: #333;
+}
+
+/*댓글 첫번째*/
+.review-body {
+    position: relative;
+    margin: 0px 0px 20px;
+}
+
+.review-body .review-body-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    border-bottom: 1px solid #dde1eb;
+}
+
+.review-body .review-body-container.reviewbody-first {
+    background-color: #fff;
+}
+
+.review-body .review-body-container.reviewbody-second {
+    background-color: #f7f8ff;
+    padding-left: 20px;
+}
+
+.review-body .review-body-container .review-body-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.review-body .review-body-container .review-body-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-body .review-body-container .review-body-list .review-body-list-profile {
+    position: relative;
+    height: 48px;
+    vertical-align: top;
+    cursor: default;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.review-body .review-body-container .review-body-list .review-body-list-profile-box{
+    margin-left: 5px;
+    padding-top: 6px;
+}
+
+.review-body .review-body-container .review-body-list .review-body-list-profile .review-body-list-profile-img {
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    border: 1px solid #eff2f4;
+}
+
+.review-body .review-body-container .review-body-list .review-body-list-profile .review-body-list-name {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.review-body .review-body-container .review-body-list .review-body-list-profile .review-body-list-date {
+    color: #858585;
+}
+
+.review-body .review-body-container .review-body-list .review-body-list-profile .review-body-list-profile-name {
+    margin-top: 7px;
+    margin-left: 6px;
+}
+
+.review-body .review-body-container .review-body-list .review-body-list-right-btn {
+    margin-top: 5px;
+}
+
+.review-body .review-body-container .review-body-read .review-body-read-text {
+    font-size: 13px;
+    line-height: 16px;
+}
+
+
+.review-body .review-body-container .review-body-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.review-body .review-body-container .review-body-bottom .review-body-bottom-retext {
+    cursor: pointer;
+}
+
+.review-body .review-body-container.reviewbody-second .review-body-bottom .review-body-bottom-retext {
+    visibility: hidden;
+}
+
+
+/*********************************************리뷰 끝***********************************************/

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>question</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" type="text/css" href="/comi/resources/css/lib/jquery-ui.min.css"/>
+	<link rel="stylesheet" href="/comi/resources/css/main.css"/>
+	<link rel="stylesheet" href="/comi/resources/css/review.css"/>
+	<link rel="stylesheet" href="/comi/resources/css/question.css"/>
+	<script type="text/javascript" src="/comi/resources/js/lib/jquery.min.js"></script>
+	<script type="text/javascript" src="/comi/resources/js/common.js"></script>
+	<script type="text/javascript" src="/comi/resources/js/question.js"></script>
+</head>
+<body>
+	<!-- Header Section Begin -->
+    <header id="header_view">    
+    </header>
+    <!-- Header Section End -->
+
+	<!-- main -->
+	<main class="main_wrapper">
+		<div class="container">
+			
+			<!--상단-->
+			<div class="search-container">
+				<div class="qa-title qa-title-write">
+					문의하기
+				</div>
+				
+			</div>
+			<!--상단end-->
+
+			<!--게시판-->
+			<div class="qa-container qa-notice">
+				<div class="qa-box qa-box-write">
+					<div class="qa-box-left">작성자</div>
+					<div class="qa-box-right">
+						<input type="text" id="qa_id"  class="review-write-textarea" readonly>
+					</div>
+				</div>
+				<div class="qa-box qa-box-write">
+					<div class="qa-box-left">비밀번호</div>
+					<div class="qa-box-right">
+						<input type="password" id="qa_password"  class="review-write-textarea">
+					</div>
+				</div>
+				<div class="qa-box qa-box-write">
+					<div class="qa-box-left">제목</div>
+					<div class="qa-box-right">
+						<input type="text" id="qa_title" class="review-write-textarea">
+					</div>
+				</div>
+				<div class="qa-box qa-box-write">
+					<div class="qa-box-left">내용</div>
+					<div class="qa-box-right">
+						<textarea id="qa_textarea" class="review-write-textarea"></textarea>
+					</div>
+				</div>
+				
+			</div>
+			<!--게시판end-->
+
+			<!--버튼박스-->
+			<div class="qa-container">
+				<div class="qa-btnbox qa-box-write">
+					<button class="qa-write-btn" id="regist_btn">등록</button>
+					<button class="qa-write-btn" id="cancel_btn">취소</button>
+				</div>
+			</div>
+			<!--버튼박스end-->
+
+			
+		</div>
+	</main>
+	
+
+	<!-- Footer Section Begin -->
+	<footer id="footer_view">	
+	</footer>
+	<!-- Footer Section End -->
+</body>
+</html>
